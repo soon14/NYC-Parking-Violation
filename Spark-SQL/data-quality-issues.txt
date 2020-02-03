@@ -1,0 +1,13 @@
+"""
+Task-8 : List any data quality issues you have encountered in the provided datasets in a text file called data-quality-issues.txt
+Author : Chinmay Wyawahare
+"""
+
+1. While creating a dataframes, the problems encountered were mostly because of the missing data. Both the files parking-violations.csv and open-violations.csv contain NaN values.
+
+2. The data is highly irregular and with random occurences of zeros in the rows of the files. This leads to loss of important field informations which is needed for processing based on the task list.
+
+3. Many rows contains most of the data but miss out on informations for one or two columns which leads to loss of information leading to inaccurate analysis.
+
+4. Some fields (columns) in the datasets are completely null which leads to loss of information and doesn't allow a complete analysis of the dataset since most of the parameters (columns) are missing.
+
